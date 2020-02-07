@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.space {
+    width: 70vw;
+}
+
+.nike__logo{
+    margin-right: 80px;
+}
+
+.text p {
+    margin:0 10px;
+}
+
+.detail {
+    text-align: center;
+}
+.card {
+    text-align: center;
+    margin: 10px
+}
+.menu,.head,.container_a,.text,.wearrobe{
+    display: flex;
+    flex-direction: row;
+}
+
+*{
+    margin: 0;
+    font-family: 'Sarabun', sans-serif;
+    color: rgb(36, 36, 36);
+}
+
+.container_a{
+    justify-content: center;
+}
+
+.wearrobe{
+    justify-content: center;
+}
+.wearrobe>p{
+    margin: 0 20px;
+    padding: 15px;
+}
+.space_x{
+    width: 20vw;
+}
+.search_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.section>p{
+    line-height: 58px;
+}
+
+.picture_p{
+    height: 700px;
+    margin:0 25px;
+    background: no-repeat url('https://techface.co/wp-content/uploads/2019/01/nike-self-lacing-shoes-6.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.head{
+    display: flex;
+    background-color: white;
+    top:0;
+    position: sticky;
+}
+
+.main__type{
+    margin-left: 25px;
+    width: 8vw;
+    font-weight: lighter;
+    font-size: 34px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.detail{
+    padding: 150px;
+    font-size: 30px;
+}
+
+input[type="button"]{
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+
+footer{
+    background-color: black;
+    height: 250px;
+    color:white;
+}
+
+.pop{
+    font-size: 26px;
+    font-weight: 550;
+}
+
+.search_bar>input[type="text"]{
+    margin-right: 25px;
+    height: 40px;
+}
+
+text>p{
+    text-align: center;
+}
