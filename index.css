@@ -1,0 +1,4 @@
+.menu,.head,.container_a,.text,.wearrobe{
+    display: flex;
+   flex-direction: row; 
+}
