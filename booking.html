@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type=text/css href="./booking.css">
+    <title>booking</title>
+</head>
+<body>
+    <div class="line_1">
+        <a>Flying from</a>
+        <div class="space"></div>
+        <a>To</a>
+    </div>
+
+    <div class="line_1">
+        <select name="product"style="color: dimgray;">
+            <option value="Karachi,Pakist">Karachi,Pakist</option>
+
+        </select>
+        <div class="space2"></div>
+        <select name="isla" style="color: dimgray;">
+            <option value="Isla">Islamabad</option>
+        </select>
+    </div>
+
+    <div class="line_1">
+        <a>Departing</a>
+        <div class="space3"></div>
+        <a>Returning</a>
+    </div>
+
+    <div class="line_1">
+        <form action="/action_page.php">
+            <input type="date" name="bday">
+          </form>
+          <div class="space4"></div>
+          <form action="/action_page.php">
+            <input type="date" name="bday">
+          </form>
+    </div>
+
+    <div class="line_1">
+        <a>Adult</a>
+        <div class="space5"></div>
+        <a>Child</a>
+        <div class="space5"></div>
+        <a>Infant</a>
+        <div class="space5"></div>
+        <a style="color: red;">Currency</a>
+    </div>
+
+    <div class="line_1">
+        <form action="/action_page.php">
+            <input type="number" name="quantity"
+             min="0" max="100" step="1" value="1">
+          </form>
+          <div class="space6"></div>
+          <form action="/action_page.php">
+            <input type="number" name="quantity"
+             min="0" max="100" step="1" value="0">
+          </form>
+          <div class="space6"></div>
+          <form action="/action_page.php">
+            <input type="number" name="quantity"
+             min="0" max="100" step="1" value="0">
+          </form>
+
+          <div class="space6"></div>
+          <form action="/action_page.php">
+            <input type="number" name="quantity"
+             min="0" max="100" step="1" value="0">
+          </form>
+    </div>
+    
+</body>
+</html>
