@@ -1,0 +1,47 @@
+.Animation
+{
+    animation-name: animation1 ;
+    animation-duration: 10s;
+    border: solid;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: blueviolet;
+   position: relative;
+   /* animation-delay: 0s;
+   animation-direction: alternate;
+   animation-iteration-count: 3; */
+   animation: animation1 alternate ease-in 5s 3s 6 ;
+}
+
+.Animation2
+{
+    animation-name: animation3 ;
+    animation-duration: 10s;
+    border: solid;
+    width: 150px;
+    height: 200px;
+    background-color: black;
+    color: blueviolet;
+   position: relative;
+}
+
+@keyframes animation1
+{
+    from{ 
+        color: blueviolet;
+        background-color:black;
+        width: 150px;
+        border: solid;
+        top: 0px;
+     }
+     to{ 
+         color: rgb(238, 13, 189);
+         background-color:red;
+         width: 200px;
+         border: dotted;
+         top: 200px;
+         visibility: hidden;
+         animation-delay: 5s;
+        }
+}
