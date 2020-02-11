@@ -1,0 +1,20 @@
+@media only screen and (min-width:768px) {
+    .git{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+    .git{
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:480px){
+    .git{
+    display: grid;
+    grid-template-columns: auto ;
+    }
+}
