@@ -1,0 +1,42 @@
+.from1
+{
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 750px;
+    border: solid;
+    color: #000;
+    background-color: white;
+}
+
+.vc_row
+{
+    display: block;
+    margin: auto;
+    width: 1000px;
+    height: 150px;
+}
+
+@media only screen and (min-width:768px) {
+    .git{
+    display: grid;
+    grid-gap: 10mm;
+    grid-template-columns: auto auto ;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+    .git{
+    display: grid;
+    grid-gap: 10mm;
+    grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:480px){
+    .git{
+    display: grid;
+    grid-gap: 10mm;
+    grid-template-columns: auto ;
+    }
+}
