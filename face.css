@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.article__post {
+    margin: 12px;
+    height: 9.7em;
+    width: 40%;
+    border-radius: 4px;
+    background-color: white;
+    border: rgb(223, 223, 223) 1px solid;
+}
+
+.create__post {
+    display: flex;
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(54, 54, 54);
+    background-color: #f5f6f7;
+    border-bottom: 1px solid #dddfe2;
+    border-radius: 2px 2px 0 0;
+    font-weight: bold;
+}
+
+.article__post__board {
+    flex-flow: row wrap;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    border-bottom: 0.2px solid rgb(219, 219, 219);
+}
+
+.article__post__board>.avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 9px;
+    background: no-repeat url(https://images.pexels.com/photos/3277932/pexels-photo-3277932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+}
+
+.article__post__board>.message {
+    width: 80%;
+    height: 55px;
+    background-color: transparent;
+    margin-bottom: 14px;
+    font-size: 30px;
+    border: none;
+}
+
+
+.message {
+    background-position: 0 -838px;
+}
+
+.article__post__to {
+    /* visibility: hidden; */
+    margin-top: 9px;
+    width: 100%;
+    border-top: 0.5px solid gainsboro;
+    height: 7em;
+    display: flex;
+    border-radius: 0 0 6px 6px;
+    background-color: #f5f6f7;
+    flex-direction: column;
+}
+
+.post__button {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.post__button--button {
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgb(117, 117, 182);
+    border: none;
+    margin: 7px;
+}
+
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+.post__button--button--text {
+    cursor: pointer;
+    color: white;
+}
+
+h3 {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.create__post {
+    display: flex;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(54, 54, 54);
+    background-color: #f5f6f7;
+    border-bottom: 1px solid #dddfe2;
+    border-radius: 2px 2px 0 0;
+    font-weight: bold;
+    padding: 10px;
+}
